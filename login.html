@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Quiz: Login</title>
+	</head>
+	<body>
+		<h1>Lab-1: Quiz Front End</h1>
+		<h2 align="center"> Login Form </h2>
+		<table border="1" align="center" width="40%" bgcolor="#E0E0E0">
+			<tr>
+				<td width="25%">
+					Enter your userid:
+				</td>
+				<td width="15%">
+					<input type="text" name="userid" id="userid" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Enter your password:
+				</td>
+				<td width="15%">
+					<input type="password" name="pwd" id="pwd" />
+				</td>
+			</tr>
+			<tr>
+				<td  align="center" width="20%">
+					<button name="reset" id="reset" value="Reset">reset</button>
+				</td>
+				<td align="center" width="20%">
+					<button onclick="window.location.href='home.html';"
+					name="login" id="login" value="Login">login</button>
+				</td>
+			</tr>
+		</table>
+		
+		<h2 align="center"> Sign Up Form </h2>
+		<table border="1" align="center" width="40%" bgcolor="#E0E0E0">
+			<tr>
+				<td width="25%">
+					Enter your first name:
+				</td>
+				<td width="15%">
+					<input type="text" name="fname" id="fname" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Enter your last name:
+				</td>
+				<td width="15%">
+					<input type="text" name="lname" id="lname" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Enter your gender:
+				</td>
+				<td width="15%">
+					M:<input type="radio" id="male" name="gender" />
+					F:<input type="radio" id="female" name="gender" />
+					O/ND:<input type="radio" id="other/nd" name="gender" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Enter your Date of Birth:
+				</td>
+				<td width="15%">
+					<input type="date" name="dob" id="dob" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Enter your education:
+				</td>
+				<td width="15%">
+					N/A: <input type="checkbox" id="N/A" name="N/A" value="N/A" />
+					HS: <input type="checkbox" id="Highschool" name="Highschool" value="HS" />
+					BS: <input type="checkbox" id="BS" name="BS" value="BS" />
+					MS: <input type="checkbox" id="MS" name="MS" value="MS" />
+					PhD: <input type="checkbox" id="PhD" name="PhD" value="Doctorate" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Enter your skillset:
+				</td>
+				<td width="15%">
+					<textarea id="skills" name="skills"> </textarea>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td width="25%">
+					Enter your userid:
+				</td>
+				<td width="15%">
+					<input type="text" name="newuserid" id="newuserid" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Enter a password:
+				</td>
+				<td width="15%">
+					<input type="password" name="newpassword" id="newpassword" />
+				</td>
+			</tr>
+			<tr>
+				<td width="25%">
+					Confirm password:
+				</td>
+				<td width="15%">
+					<input type="password" name="confpassword" id="confpassword" />
+				</td>
+			</tr>
+			<tr>
+				<td align="center" width="20%">
+					<button name="reset" id="reset" value="Reset">reset</button>
+				</td>
+				<td align="center" width="20%">
+					<button onclick="window.location.href='home.html';"
+					name="signup" id="signup" value="Signup">sign up</button>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
